@@ -29,4 +29,12 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentID=" + studentID +
+                ", studentName='" + studentName + '\'' +
+                '}';
+    }
 }
